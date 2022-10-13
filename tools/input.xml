@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<movie version="8" width="320" height="240" framerate="12">
+  <frame>
+    <library>
+      <font id="FontName" import="../FontFile.ttf" name="FontName" />
+    </library>
+  </frame>
+</movie>

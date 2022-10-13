@@ -1,6 +1,7 @@
-tools
-*.gfx
+tools/*
+!tools/input.xml
 
+*.gfx
 *.ttf
 *.otf
 *.woff
