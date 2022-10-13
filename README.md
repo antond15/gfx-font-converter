@@ -1,2 +1,12 @@
-# gfx-font-converter
-PowerShell script to easily convert a font file to GFX format.
+## How to use
+- Place your font file inside this folder
+- Run the `convert.ps1` script
+- Enter the prompt details
+- Add the new `.gfx` file to your script's stream folder
+- Register the font in-game
+
+```lua
+RegisterFontFile('rubik')              -- File name without file extension
+local fontId = RegisterFontId('Rubik') -- Font name you entered in the convert script
+local fontText = '<font face="Rubik">This text will have the Rubik font</font>'
+```
