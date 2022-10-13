@@ -10,7 +10,7 @@ $inputXml.movie.frame.library.font.SetAttribute("id", $fontName)
 $inputXml.movie.frame.library.font.SetAttribute("name", $fontName)
 $inputXml.movie.frame.library.font.SetAttribute("import", "../$fileName")
 
-$inputXml.Save("input.xml")
+$inputXml.Save("./tools/input.xml")
 
 # Convert the font to GFX
 ./swfmill.exe simple input.xml output.swf
