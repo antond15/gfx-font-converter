@@ -18,7 +18,7 @@ $inputXml.Save("./tools/input.xml")
 
 # Convert the font to GFX
 ./swfmill.exe simple input.xml output.swf
-./gfxexport.exe output.swf
+./gfxexport.exe output.swf | Out-Null
 
 Remove-Item "output.swf"
 Move-Item -Path "output.gfx" -Destination "..\output.gfx"
