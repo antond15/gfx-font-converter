@@ -6,9 +6,9 @@
 - Register the font in-game
 
 ```lua
-RegisterFontFile('rubik')              -- File name without file extension
-local fontId = RegisterFontId('Rubik') -- Font name you entered in the convert script
-local fontText = '<font face="Rubik">This text will have the Rubik font</font>'
+RegisterFontFile('Arial')              -- File name without file extension
+local fontId = RegisterFontId('Arial') -- Font name you entered in the convert script
+local fontText = '<font face="Arial">This text will have the Arial font</font>'
 ```
 
 ## Credits
