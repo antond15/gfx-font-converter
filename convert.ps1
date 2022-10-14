@@ -24,5 +24,5 @@ $inputXml.Save("./tools/input.xml")
 
 # Clean up and move the result
 Remove-Item "output.swf"
-Move-Item -Path "output.gfx" -Destination "../output.gfx"
-Rename-Item -Path "../output.gfx" -NewName "$fontName.gfx"
+Move-Item -Path "output.gfx" -Destination "../output/output.gfx"
+Rename-Item -Path "../output/output.gfx" -NewName "$fontName.gfx"
