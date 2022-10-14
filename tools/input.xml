@@ -2,7 +2,7 @@
 <movie version="8" width="320" height="240" framerate="12">
   <frame>
     <library>
-      <font id="FontName" import="../FontFile.ttf" name="FontName" />
+      <font id="FontName" name="FontName" import="../FontFile.ttf" />
     </library>
   </frame>
 </movie>
