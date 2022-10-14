@@ -1,12 +1,13 @@
 ## How to use
-- Place your font file inside this folder
 - Run the `convert.ps1` script
-- Enter the prompt details
-- Add the new `.gfx` file to your script's stream folder
+- Drag and drop your font file to the PowerShell window
+- Confirm and enter prompt details
+- Add the new `.gfx` file from `output` folder to your script's `stream` folder
 - Register the font in-game
 
+##### Example of how to register a custom font
 ```lua
-RegisterFontFile('Arial')              -- File name without file extension
+RegisterFontFile('Arial') -- File name without file extension
 local fontId = RegisterFontId('Arial') -- Font name you entered in the convert script
 local fontText = '<font face="Arial">This text will have the Arial font</font>'
 ```
