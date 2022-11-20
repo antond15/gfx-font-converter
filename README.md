@@ -13,5 +13,5 @@ local fontText = '<font face="Arial">This text will have the Arial font</font>'
 ```
 
 ## Credits
-- [swfmill.exe](https://github.com/djcsdy/swfmill) ([direct download](http://www.swfmill.org/releases/swfmill-0.3.6-win32.zip))
+- [swfmill.exe](https://github.com/djcsdy/swfmill) ([direct download](https://www.swfmill.org/releases/swfmill-0.3.6-win32.zip))
 - [gfxexport.exe](https://docs.unrealengine.com/udk/Three/DownloadsPage.html) ([direct download](https://docs.unrealengine.com/udk/Three/rsrc/Three/DownloadsPage/gfxexport.zip))
