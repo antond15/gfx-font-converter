@@ -27,3 +27,7 @@ Remove-Item "output.swf"
 Move-Item -Path "output.gfx" -Destination "../output/output.gfx"
 Rename-Item -Path "../output/output.gfx" -NewName "$fontName.gfx"
 Set-Location "../"
+
+# Finished
+Write-Host "`nConversion complete! The exported font is now available in the output folder."
+Read-Host "Press Enter to exit"
